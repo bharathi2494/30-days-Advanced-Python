@@ -10,13 +10,12 @@ This day focused on
 
 ## how Python executed code.
 python doesn't run .py files directly.  
-Executon flow:
+Executon flow:  
 Python Source Code (.py)<br>
         ↓<br>
 Compiled to Bytecode (.pyc)<br>
-        ↓
-Executed by Python Virtual Machine (PVM)
-
+        ↓<br>
+Executed by Python Virtual Machine (PVM)<br>
 - Python first compiles code into bytecode
 - Bytecode is platform-independent
 - PVM executes bytecode line by line
