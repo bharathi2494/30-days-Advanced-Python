@@ -9,7 +9,7 @@ This day focused on
 - _pycache_ folder
 
 ## how Python executed code.
-python doesn't run .py files directly
+python doesn't run .py files directly.  
 Executon flow:
 
 Python Source Code (.py)
