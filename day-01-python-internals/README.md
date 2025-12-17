@@ -6,7 +6,7 @@ This day focused on
 - Bytecode
 - PVM (Python virtual machine)
 - GIL (Global interpreter lock)
-- _pycache_ folder
+- `_pycache_` folder
 
 ## how Python executed code.
 python doesn't run .py files directly.  
@@ -32,8 +32,8 @@ Executed by Python Virtual Machine (PVM)<br>
 - Generated automatically by Python
 - Improves performance by avoiding recompilation
 
-## `__Pycache__`
-- `__pycache__` is a folder created by Python
+## `_Pycache_`
+- `_pycache_` is a folder created by Python
 - It stores compiled bytecode files (.pyc)
 - Helps Python run programs faster next time
 - Safe to delete (Python recreates it automatically)
