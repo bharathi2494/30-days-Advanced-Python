@@ -12,9 +12,9 @@ This day focused on
 python doesn't run .py files directly.  
 Executon flow:  
 Python Source Code (.py)<br>
-        ↓<br>
+&nbsp;&nbsp;↓<br>
 Compiled to Bytecode (.pyc)<br>
-        ↓<br>
+&nbsp;&nbsp;↓<br>
 Executed by Python Virtual Machine (PVM)<br>
 - Python first compiles code into bytecode
 - Bytecode is platform-independent
