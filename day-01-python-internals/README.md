@@ -10,7 +10,7 @@ This day focused on
 
 ## how Python executed code.
 python doesn't run .py files directly.  
-Executon flow:  
+## Executon flow:  
 Python Source Code (.py)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;↓<br>
 Compiled to Bytecode (.pyc)<br>
