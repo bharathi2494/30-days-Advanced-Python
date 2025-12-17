@@ -54,5 +54,5 @@ Executed by Python Virtual Machine (PVM)<br>
 - Bytecode is executed by PVM
 - CPython is the default interpreter
 - GIL allows only one thread to execute Python code
-- __pycache__ stores compiled bytecode
+- `_pycache_` stores compiled bytecode
 - Python favors simplicity and safety over raw speed
