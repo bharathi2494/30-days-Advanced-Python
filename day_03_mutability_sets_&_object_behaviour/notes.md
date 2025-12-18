@@ -1,9 +1,9 @@
 ## 1️⃣ Mutable vs Immutable
 
-Mutable objects can be changed after creation. 
+Mutable objects can be changed after creation.  
 Examples: list, set, dict
 
-Immutable objects cannot be changed after creation. 
+Immutable objects cannot be changed after creation.  
 Examples: int, str, tuple, frozenset
 
 ## 2️⃣ What is a Set?
