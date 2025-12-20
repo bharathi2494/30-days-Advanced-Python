@@ -13,3 +13,22 @@ These methods are automatically invoked by Python and form the foundation of Pyt
 ```python
 print(obj)      # Calls obj.__str__()
 obj1 == obj2    # Calls obj1.__eq__(obj2)
+```
+## 1️⃣ __str__ Method
+## Purpose
+Returns a human-readable string representation of an object.
+## When It Is Called
+- print(object)
+- str(object)
+## Use Case
+Used to display meaningful information to users.  
+Example:
+```python
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def __str__(self):
+        return f"Student(Name={self.name}, Marks={self.marks})"
+```
