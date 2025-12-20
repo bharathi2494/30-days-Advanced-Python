@@ -4,19 +4,19 @@ This module covers Dunder (Magic) Methods in Python, which allow developers to d
 Dunder methods begin and end with double underscores (__) and are automatically invoked by Python.
 
 # 🧠 Topics Covered
-## 1. __str__ and __repr__
+## 1. `__str__ and __repr__`
 - Custom string representation of objects
 - User-friendly vs developer-friendly output
 - Used during printing and debugging
 
-## 2. __eq__ (Equality Comparison)
+## 2.` __eq__` (Equality Comparison)
 - Enables object comparison using ==
 - Compares object data instead of memory location
 
 ## 3. Ordering Methods
-- __lt__, __gt__, __le__, __ge__
+- `__lt__, __gt__, __le__, __ge__`
 - Used to sort custom objects
 
-## 4. __call__
+## 4. `__call__`
 - Allows objects to behave like functions
 - Useful for callable objects and stateful behavior
