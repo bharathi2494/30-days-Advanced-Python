@@ -15,7 +15,7 @@ print(obj)      # Calls obj.__str__()
 obj1 == obj2    # Calls obj1.__eq__(obj2)
 ```
 ## 1️⃣`__str__` Method
-<u><b> Purpose </b></u>
+<u><b>Purpose</b></u>
 Returns a human-readable string representation of an object.
 ## When It Is Called
 - print(object)
