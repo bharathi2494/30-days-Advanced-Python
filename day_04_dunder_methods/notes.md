@@ -32,6 +32,20 @@ class Student:
     def __str__(self):
         return f"Student(Name={self.name}, Marks={self.marks})"
 ```
+# 2️⃣ `__repr__` Method
+<b>Purpose</b>  
+Returns an official, unambiguous string representation of an object.
+
+<b>When It Is Called</b>
+- Interactive interpreter
+- Debugging
+- Logging
+
+<b>Best Practice</b>
+The returned string should ideally be able to recreate the object.
+
+<b>Example:</b>
+
 # 3️⃣ __eq__ Method (Equality Operator)
 **Purpose** <br>
 Defines how objects are compared using the == operator.  
