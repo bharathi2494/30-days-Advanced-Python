@@ -51,7 +51,7 @@ class Student:
         return "Student('Ravi', 85)"
 ```
 
-# 3️⃣ __eq__ Method (Equality Operator)
+# 3️⃣ `__eq__` Method (Equality Operator)
 **Purpose** <br>
 Defines how objects are compared using the == operator.  
 
@@ -68,3 +68,14 @@ class Book:
     def __eq__(self, other):
         return self.pages == other.pages
 ```
+# 4️⃣ Ordering Dunder Methods
+**Purpose**
+Allow objects to be compared and sorted.
+
+**Common Ordering Methods**
+| Method   | Operator |
+| -------- | -------- |
+| `__lt__` | `<`      |
+| `__le__` | `<=`     |
+| `__gt__` | `>`      |
+| `__ge__` | `>=`     |
