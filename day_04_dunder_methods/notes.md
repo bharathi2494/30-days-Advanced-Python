@@ -8,6 +8,7 @@ These methods are automatically invoked by Python and form the foundation of Pyt
 - “Dunder” stands for Double UNDERscore
 - Used to implement operator overloading
 - Allow custom objects to behave like built-in data types.
+  
   Example:
 ```python
 print(obj)      # Calls obj.__str__()
