@@ -34,10 +34,10 @@ class Student:
 ```
 # 3️⃣ __eq__ Method (Equality Operator)
 **Purpose**
-Defines how objects are compared using the == operator.
+Defines how objects are compared using the == operator.  
 
 **Default Behavior**
-Without __eq__, Python compares memory addresses, not values.
+Without __eq__, Python compares memory addresses, not values.  
 
 **Example:**
 ```python
