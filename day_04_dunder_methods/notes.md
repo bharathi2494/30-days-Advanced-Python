@@ -20,9 +20,9 @@ Returns a human-readable string representation of an object.
 ## When It Is Called
 - print(object)
 - str(object)
-** Use Case **
+## Use Case 
 Used to display meaningful information to users.  
-Example:
+**Example:**
 ```python
 class Student:
     def __init__(self, name, marks):
