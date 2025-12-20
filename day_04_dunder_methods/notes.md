@@ -79,3 +79,32 @@ Allow objects to be compared and sorted.
 | `__le__` | `<=`     |
 | `__gt__` | `>`      |
 | `__ge__` | `>=`     |
+**Example (Sortable Class)**
+```python
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def __lt__(self, other):
+        return self.marks < other.marks
+```
+# 5️⃣ `__call__` Method
+**Purpose**
+Allows an object to be called like a function.
+
+**Example:**
+```python
+class Counter:
+    def __init__(self):
+        self.count = 0
+
+    def __call__(self):
+        self.count += 1
+        return self.count
+```
+## Key Takeaways
+- Dunder methods define custom object behavior
+- They enable Pythonic and readable code
+- Used heavily in frameworks and libraries
+- Essential for mastering Object-Oriented Python
