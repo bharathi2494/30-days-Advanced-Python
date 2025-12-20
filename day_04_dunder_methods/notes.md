@@ -108,3 +108,8 @@ class Counter:
 - They enable Pythonic and readable code
 - Used heavily in frameworks and libraries
 - Essential for mastering Object-Oriented Python
+
+## Summary (For Notes)
+- `__lt__` → makes objects sortable
+- `__call__` → makes objects callable
+- Dunder methods customize object behavior
