@@ -33,13 +33,13 @@ class Student:
         return f"Student(Name={self.name}, Marks={self.marks})"
 ```
 # 3️⃣ __eq__ Method (Equality Operator)
-**Purpose**
+**Purpose** <br>
 Defines how objects are compared using the == operator.  
 
-**Default Behavior**
+**Default Behavior** <br>
 Without __eq__, Python compares memory addresses, not values.  
 
-**Example:**
+**Example:** <br>
 ```python
 class Book:
     def __init__(self, title, pages):
