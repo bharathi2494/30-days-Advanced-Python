@@ -17,10 +17,10 @@ obj1 == obj2    # Calls obj1.__eq__(obj2)
 ## 1️⃣`__str__` Method
 <u>Purpose</u>
 Returns a human-readable string representation of an object.
-## When It Is Called
+## When It Is Called  
 - print(object)
 - str(object)
-## Use Case 
+## Use Case  
 Used to display meaningful information to users.  
 **Example:**
 ```python
@@ -41,10 +41,15 @@ Returns an official, unambiguous string representation of an object.
 - Debugging
 - Logging
 
-<b>Best Practice</b>
+<b>Best Practice</b>  
 The returned string should ideally be able to recreate the object.
 
 <b>Example:</b>
+```python
+class Student:
+    def __repr__(self):
+        return "Student('Ravi', 85)"
+```
 
 # 3️⃣ __eq__ Method (Equality Operator)
 **Purpose** <br>
