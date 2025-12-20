@@ -7,8 +7,8 @@ These methods are automatically invoked by Python and form the foundation of Pyt
 ## What Are Dunder Methods?
 - “Dunder” stands for Double UNDERscore
 - Used to implement operator overloading
-- Allow custom objects to behave like built-in data types
- Example:
+- Allow custom objects to behave like built-in data types.
+  Example:
 ```python
 print(obj)      # Calls obj.__str__()
 obj1 == obj2    # Calls obj1.__eq__(obj2)
