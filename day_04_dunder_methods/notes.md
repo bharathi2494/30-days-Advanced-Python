@@ -14,13 +14,13 @@ These methods are automatically invoked by Python and form the foundation of Pyt
 print(obj)      # Calls obj.__str__()
 obj1 == obj2    # Calls obj1.__eq__(obj2)
 ```
-## 1️⃣ __str__ Method
+## 1️⃣`__str__` Method
 ## Purpose
 Returns a human-readable string representation of an object.
 ## When It Is Called
 - print(object)
 - str(object)
-## Use Case
+** Use Case **
 Used to display meaningful information to users.  
 Example:
 ```python
