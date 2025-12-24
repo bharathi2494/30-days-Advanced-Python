@@ -20,10 +20,5 @@ This repository covers **Regular Expressions** in Python, focusing on **pattern 
 - Python
 - `re` module
 
-## Next
-- Advanced Regex (Lookarounds & Performance)
 
----
-
-**Author:** Bharathi S
 
