@@ -1,8 +1,7 @@
 # Regular Expressions – Python
 
 ## Overview
-Regular Expressions (Regex) are used for **pattern matching, validation, and text processing**.  
-This module covers intermediate concepts required for **real-world Python applications**.
+In Python, regular expressions (regex) are handled using the built-in `re.module`, which provides a suite of tools for **searching, matching, and manipulating text** based on specified patterns.
 
 ## 1. Character Classes
 Used to match **one character from a set**.
