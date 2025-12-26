@@ -40,9 +40,3 @@ How Python searches for variables
 
 ## ⭐ Key Takeaway
 Decorators are closures that modify behavior without changing the original function.
-
-
-
-
-
-Just tell me 👍
